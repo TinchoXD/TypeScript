@@ -1,5 +1,5 @@
 //podemos escribir codigo JavaScript
-var nombre = "Martin"
+//var nombre = "Martin"
 let nombre = 'Ricardo'
 let SegundoNombre = 'Martin'
 const CI = '1718139205'
@@ -32,15 +32,17 @@ class Usuario {
                 cedula: String) {
         this.mNombre = nombre;
         this.mEdad = edad;
-        this.mCedula = cedula;``
+        this.mCedula = cedula;
+        ``
 
     }
-    public ImprimirEnConsola(){
+
+    public ImprimirEnConsola() {
         //Template String TIDE INVERTIDA
         console.log(`El usuario se llama ${this.mNombre} su cedula es ${this.mCedula} y tiene ${this.mEdad}`)
     }
 }
 
 
-let usuario: Usuario = new Usuario('Gabriela',27,'1718191415')
+let usuario: Usuario = new Usuario('Gabriela', 27, '1718191415')
 //
