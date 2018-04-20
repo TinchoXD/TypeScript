@@ -19,6 +19,7 @@ var Usuario = /** @class */ (function () {
         this.mCedula = cedula;
         "";
     }
+
     Usuario.prototype.ImprimirEnConsola = function () {
         //Template String TIDE INVERTIDA
         console.log("El usuario se llama " + this.mNombre + " su cedula es " + this.mCedula + " y tiene " + this.mEdad);
@@ -26,4 +27,35 @@ var Usuario = /** @class */ (function () {
     return Usuario;
 }());
 var usuario = new Usuario('Gabriela', 27, '1718191415');
-//
+////*
+console.log(usuario)
+console.log(usuario.ImprimirEnConsola())
+
+
+var usuario = new Usuario('Adrian', 28, '1718137159');
+var usuarioOtro = {
+    mNombre: 'Adrian',
+    mEdad: 28,
+    mCedula: '1718137159'
+};
+
+//console.log(usuario.imprimirEnConsola());
+console.log(usuarioOtro);
+function noHagoNada() {
+}
+
+console.log('No hago nada: ', noHagoNada());
+
+/*
+
+interface
+usuarioDOS
+{
+    mNombre: string;
+    mEdad: Number;
+    mCedula: string;
+    imprimir
+}
+
+let UsuarioTRES: Usuario;
+usuarioTRES = {}*/
